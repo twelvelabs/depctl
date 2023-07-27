@@ -3,7 +3,7 @@
 [![build](https://github.com/twelvelabs/depctl/actions/workflows/build.yml/badge.svg)](https://github.com/twelvelabs/depctl/actions/workflows/build.yml)
 [![codecov](https://codecov.io/gh/twelvelabs/depctl/branch/main/graph/badge.svg)](https://codecov.io/gh/twelvelabs/depctl)
 
-Install your project's development dependencies with a single command ✨
+Install project dependencies with a single command. ✨
 
 ## Installation
 
