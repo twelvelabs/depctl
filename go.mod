@@ -3,7 +3,7 @@ module github.com/twelvelabs/depctl
 go 1.20
 
 require (
-	github.com/charmbracelet/log v0.2.2
+	github.com/charmbracelet/log v0.2.5
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/muesli/mango-cobra v1.2.0
 	github.com/muesli/roff v0.1.0
@@ -19,7 +19,7 @@ require (
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/briandowns/spinner v1.23.0 // indirect
 	github.com/caarlos0/env/v8 v8.0.0 // indirect
-	github.com/charmbracelet/lipgloss v0.7.1 // indirect
+	github.com/charmbracelet/lipgloss v0.8.0 // indirect
 	github.com/creasty/defaults v1.7.0 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/color v1.15.0 // indirect
