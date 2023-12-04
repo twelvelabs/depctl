@@ -3,7 +3,7 @@ module github.com/twelvelabs/depctl
 go 1.20
 
 require (
-	github.com/charmbracelet/log v0.3.0
+	github.com/charmbracelet/log v0.3.1
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/muesli/mango-cobra v1.2.0
 	github.com/muesli/roff v0.1.0
