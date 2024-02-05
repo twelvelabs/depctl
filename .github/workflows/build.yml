@@ -46,7 +46,7 @@ jobs:
         run: make test
 
       - name: Coverage
-        uses: codecov/codecov-action@eaaf4bedf32dbdc6b720b63067d99c4d77d6047d # pin@v3.1.4
+        uses: codecov/codecov-action@e0b68c6749509c5f83f984dd99a76a1c1a231044 # pin@v4.0.1
 
       - name: Import GPG key
         uses: crazy-max/ghaction-import-gpg@01dd5d3ca463c7f10f7f4f7b4f177225ac661ee4 # pin@v6.1.0
