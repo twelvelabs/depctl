@@ -10,7 +10,9 @@ import (
 func TestNewApp(t *testing.T) {
 	path := filepath.Join("testdata", "config", "valid.yaml")
 	app, err := NewApp("", "", "", path)
-	defer app.Close()
+	defer func() {
+		_ = app.Close()
+	}()
 
 	assert.NotNil(t, app)
 	assert.NoError(t, err)

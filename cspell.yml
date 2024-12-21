@@ -52,6 +52,7 @@ words:
   - hadolint
   - ifeq
   - ifneq
+  - linuxbrew
   - markdownlint
   - nolint
   - noreply
