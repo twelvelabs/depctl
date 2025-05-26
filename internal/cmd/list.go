@@ -40,7 +40,7 @@ func NewListCmd(app *core.App) *cobra.Command {
 						key,
 						dep.Name,
 						dep.Description,
-						app.UI.Formatter.Underline(dep.URL),
+						app.UI.Underline(dep.URL),
 					})
 				}
 			}
